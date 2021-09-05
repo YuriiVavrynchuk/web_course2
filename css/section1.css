@@ -1,0 +1,98 @@
+.section1
+{
+    height: 700px;
+    background: #F8F8F8;
+}
+
+.section1__left-column
+{
+    display: inline-block;
+    width: 40%;
+}
+
+.section1__right-column
+{
+    display: inline-block;
+    width: 40%;
+}
+
+.section1__caption
+{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 79px;
+    margin-bottom: 95px;
+
+    text-align: center;
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.section1__stars-images
+{
+    display: flex;
+    margin-left: 180px;
+}
+
+.section1__stars-images li
+{
+    margin-right: 16px;
+}
+
+.section1__quote
+{
+    width: 450px;
+    height: 144px;
+    margin-left: 180px;
+
+    font-family: Mulish;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.section1__edward-newgate
+{
+    width: 183px;
+    height: 48px;
+    margin-left: 180px;
+    margin-top: 40px;
+
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 48px;
+
+    font-weight: bold;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.section1__founder-circle
+{
+    width: 124px;
+    height: 48px;
+    margin-left: 180px;
+
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 48px;
+
+    color: rgba(0, 0, 0, 0.85);
+    mix-blend-mode: normal;
+}
+
+.section1__main-landingpage-image
+{
+    width: 384px;
+    height: 491px;
+    margin-top: 100px;
+    margin-left: 280px;
+    
+    background: #C4C4C4;
+    border-radius: 14px;
+}
