@@ -1,0 +1,60 @@
+.hero__guides-by-text
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+    width: fit-content;
+
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.hero__desciption-text
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    width: fit-content;
+
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.hero_download-button
+{
+    display: inline-block;
+    width: 164px;
+    height: 48px;
+
+    position: relative;
+    margin-top: 33px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    mix-blend-mode: normal;
+    color: #FFFFFF;
+
+    background-color: #FB8F1D;
+    border: #FFFFFF;
+    border-radius: 8px;
+}
+
+.hero__hero-image
+{
+    position: relative;
+    margin: 0 auto;
+    top: 150px;
+    left: 0px;
+    display: inline-block;
+}
