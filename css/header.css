@@ -1,0 +1,91 @@
+.header__navigation
+{
+    width: fit-content;
+}
+
+.header__navigation ul
+{
+    display: flex;
+}
+
+.header__navigation-item
+{
+    margin-right: 35px;
+
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #B8BECD;
+}
+
+.header__navigation-item-home
+{
+    margin-right: 35px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #202336;
+}
+
+.header__logo
+{
+    width: 41px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+.header__login-button
+{
+    width: 132px;
+    height: 44px;
+    margin-right: 18px;
+    color: #FB8F1D;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    background-color: #FFFFFF;
+
+}
+
+.header__register-button
+{
+    width: 132px;
+    height: 44px;
+    color: #FFFFFF;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px;
+    border: #FB8F1D;
+    background-color: #FB8F1D;
+}
+
+.header__logo-outside-ellipse
+{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #1ABE84;
+}
+
+.header__logo-inside-ellipse
+{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FB8F1D;
+    border: 3px solid #FFFFFF;
+}
+
