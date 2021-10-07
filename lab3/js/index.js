@@ -36,7 +36,7 @@ sortCheckbox.addEventListener("change", function() {
         
         renderItemsList(sortedPrinters);
     } else {
-        refetchAllVouchers();
+        refetchAllPrinters();
     }
 });
 
