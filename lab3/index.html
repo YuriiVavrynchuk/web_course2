@@ -26,6 +26,31 @@
 
     <div class="content">
         <aside class="aside">
+		
+			<form id="add_form">
+            	<h2>Create printer</h2>
+
+            <div class="item_form">
+                <label for="brand_input" class="form_label">Brand</label>
+                <input type="text" class="form_control" id="brand_input" required>
+            </div>
+            <div class="item_form">
+                <label for="model_input" class="form_label">Model</label>
+                <input type="text" class="form_control" id="model_input" required>
+            </div>
+            <div class="item_form">
+                <label for="power_input" class="form_label">Power</label>
+                <input type="number" class="form_control" id="power_input">
+            </div>
+            <div class="item_form">
+                <label for="price_input" class="form_label">Price</label>
+                <input type="number" class="form_control" id="price_input">
+            </div>
+            <button id="submit_button" type="submit" class="btn btn-primary">
+                Submit
+            </button>
+        </form>
+
             <h2>Manage printers</h2>
             <div class="sort">
                 Sort by the price
@@ -50,6 +75,8 @@
             <ul id="container__items"></ul>
         </div>
     </div>
+
+    
 
     <script type="module" src="./js/index.js"></script>
 </body>
