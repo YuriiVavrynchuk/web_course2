@@ -9,3 +9,15 @@ const PRINTERS = [
 export const getAllPrinters = () => {
     return PRINTERS;
 };
+
+export const postPrinters = (body) => {
+    PRINTERS.push(body);
+}
+
+export const updatePrinters = (id, body) => {
+    let index = PRINTERS.findIndex(idx => idx.id == id);
+    PRINTERS[index].brand = body.brand;
+    PRINTERS[index].model = body.model;
+    PRINTERS[index].power = body.power;
+    PRINTERS[index].price = body.price;
+}
