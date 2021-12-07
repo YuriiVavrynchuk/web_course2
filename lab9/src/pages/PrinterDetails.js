@@ -4,9 +4,13 @@ import Button from "../components/Button/Button";
 import Wrapper from "../components/Cards/Wrapper";
 import Heading from "../components/Heading/Heading";
 import { GlobalContext } from "../context/GlobalState";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../redux/actions";
 
 const PrinterDetails = (route) => {
   let history = useHistory();
+
+  const dispatch = useDispatch();
 
   const { printers } = useContext(GlobalContext);
 
@@ -28,15 +32,13 @@ const PrinterDetails = (route) => {
   }, [currentPrinterId, printers]);
 
   return (
-    <div>
-      <Wrapper>
-        <Heading printer={selectedPrinter} />
-        <div className="flex justify-end py-8">
-          <Button label="Go back" onClick={() => history.push("/catalog")} />
-          <Button label="Add to cart" />
-        </div>
-      </Wrapper>
-    </div>
+    <Wrapper>
+      <Heading printer={selectedPrinter} />
+      <div className="flex justify-end py-8">
+        <Button label="Go back" onClick={() => history.push("/catalog")} />
+        <Button label="Add to cart" onClick={() => dispatch(addToCart(selectedPrinter))} />
+      </div>
+    </Wrapper>
   );
 };
 
