@@ -21,7 +21,7 @@ const CatalogList = () => {
           </div>
         </React.Fragment>
       ) : (
-        <NoDataText />
+        <NoDataText text="No data text" />
       )}
     </React.Fragment>
   );
